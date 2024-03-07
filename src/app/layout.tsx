@@ -8,7 +8,7 @@ import ModalProvider from '@/providers/modal-provider'
 import { Toaster } from '@/components/ui/toaster'
 import { Toaster as SonnarToaster } from '@/components/ui/sonner'
 
-const font = DM_Sans({ subsets: ['latin'] })
+const font = DM_Sans({ subsets: ['latin'], display: 'swap', adjustFontFallback: false })
 
 export const metadata: Metadata = {
   title: 'Plura',
